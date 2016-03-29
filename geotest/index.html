@@ -41,13 +41,8 @@
          	var latitude = position.coords.latitude;
             var longitude = position.coords.longitude;
             
-            if(prevLat > latitude || prevLat < latitude || prevLon > longitude || prevLon < longitude){
             	document.getElementById("Header").innerHTML = "Longitude: " + longitude;
-            } else {
-            	document.getElementById("Header").innerHTML = "Yo ain't moved!";
-            }
-            prevLat = latitude;
-            prevLon = longitude;
+            
          }
       </script>
       
@@ -58,7 +53,7 @@
          <input type="button" onclick="positionChange();" value="Watch Update"/>
       </form>
       
-      <h1 id="Header">Movin</h1>
+      <h1 id="Header"></h1>
       
    </body>
 </html>
