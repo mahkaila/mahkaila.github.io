@@ -42,7 +42,7 @@
             var longitude = position.coords.longitude;
             
             if(prevLat > latitude || prevLat < latitude || prevLon > longitude || prevLon < longitude){
-            	document.getElementById("Header").innerHTML = "Yo moved!";
+            	document.getElementById("Header").innerHTML = "Longitude: " + longitude;
             } else {
             	document.getElementById("Header").innerHTML = "Yo ain't moved!";
             }
