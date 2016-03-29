@@ -1,0 +1,667 @@
+html, body{
+	margin:0;
+	padding:0;
+	height: 100%;
+}
+
+.carousel{
+	width:100%;
+	height:100%;
+	margin:0;
+}
+
+.item1{
+	background-image: url("../img/1.jpg");
+	width:100%;
+	height:100%;
+}
+
+.contentBar{
+	width:100%;
+	height: 300px;
+	background-color: #ffffff;
+	opacity: 0.5;
+	margin-top: 15%;
+	position: absolute;
+}
+
+.header1{
+	text-align:centre;
+	color:#ffffff;
+	position: absolute;
+	margin-top:18%;
+	margin-left: 43%;
+	padding-bottom:5%;
+}
+
+.paraConcept{
+	width: 600px;
+	height: 250px;
+	font-size: 11px;
+	color: #f6f6f6;
+	text-align:center;
+	margin-top:24%;
+	margin-left: 28%;
+	padding-right: 40px;
+	position:absolute;
+}
+
+.item2{
+	background-color: #D9D579;
+	width:100%;
+	height:100%;
+}
+
+.item3{
+	background-color: #E3DB40;
+	width:100%;
+	height:100%;
+}
+
+.item4{
+	background-color: #CCD97C;
+	width:100%;
+	height:100%;
+}
+
+.gpsText img{
+	width:80px;
+	height:80px;
+	position:absolute;
+}
+
+.gpsText p{
+	height:100px;
+	width:350px;
+	position:relative;
+	margin-left: 80px;
+	margin-right: 80px;
+	font-size:13px;
+}
+
+.gpsText{
+	height:130px;
+	position:relative;
+	margin-top: 2%;
+	margin-left: 6%;
+	
+}
+
+.gyroText img{
+	width:80px;
+	height:80px;
+	position:absolute;
+}
+
+.gyroText p{
+	height:100px;
+	width:350px;
+/*	position:relative;*/
+	margin-right: 80px;
+	margin-left: 80px;
+	font-size:13px;
+}
+
+.gyroText{
+	height:130px;
+	margin-top: 2%;
+	position:relative;
+	margin-left: 6%;
+}
+
+.arText img{
+	width:80px;
+	height:80px;
+	position:absolute;
+}
+
+.arText p{
+	height:100px;
+	width:350px;
+/*	position:relative;
+*/	margin-left: 80px;
+	margin-right: 80px;
+	font-size:13px;
+}
+
+.arText{
+	height:130px;
+/*	position:relative;*/
+	margin-left: 30%;
+	margin-top: 6%;
+	
+}
+
+.senseHead{
+	margin-left: 9%;
+}
+
+.sensors{
+	margin-left: 40%;
+	margin-top: 6%;
+}
+
+.item5{
+	background-color: #FFF407;
+	width:100%;
+	height:100%;
+}
+
+.comp{
+	height:430px;
+	background-color:#fffba9;
+	margin: 20px;
+}
+
+.tablet{
+	height:430px;
+	background-color:#fffba9;
+	margin: 20px;
+}
+
+.phone{
+	height:430px;
+	background-color:#fffba9;
+	margin: 20px;
+}
+
+.deviceContain{
+	margin-left: 13%;
+	margin-top: 4%;
+}
+
+.deviceContain img{
+	height:60px;
+	width: 60px;
+	position:absolute;
+}
+
+.deviceHead{
+	position:relative;
+	margin-left:60px;
+	font-size: 20px;
+}
+
+.deviceContain p{
+	font-size: 12px;
+	margin-left:5px;
+	margin-top:25px;
+}
+
+.DevPriHead {
+	font-size:35px;
+	margin-top:5%;
+	text-align:center;
+}
+
+.item6{
+	background-color: #5B3655;
+	width:100%;
+	height:100%;
+}
+
+.appPlan{
+	height: 480px;
+	width: 780px;
+	margin-left: 20%;
+	margin-top: 1%;
+}
+
+.appHeader{
+	color:#ffffff;
+	margin-top:5%;
+	text-align:center;
+}
+
+.item7{
+	background-color: #B8B742;
+	width:100%;
+	height:100%;
+}
+
+.futureHeader{
+	text-align:center;
+	color:#ffffff;
+	position: absolute;
+	margin-top:18%;
+	padding-bottom:5%;
+	margin-left: 38%;
+}
+
+.item8{
+	background-color: #D9C328;
+	width:100%;
+	height:100%;
+}
+
+.item9{
+	background-color: #C0D96C;
+	width:100%;
+	height:100%;
+}
+
+.item10{
+	background-color: #D9CE3D;
+	width:100%;
+	height:100%;
+}
+
+.item11{
+	background-color: #61345D;
+	width:100%;
+	height:100%;
+}
+
+.splash{
+	background-image: url("../img/TePapa.jpg");
+	width:100%;
+	height:100%;
+	margin-top:0px;
+}
+
+.needsText p{
+	color:#ffffff;
+	font-size: 11px;
+	position:relative;
+	margin-left:50px;
+}
+
+.needsText h3{
+	color:#ffffff;
+	font-size: 16px;
+}
+
+.needsText img{
+	height:50px;
+	width:50px;
+	position:absolute;
+}
+
+.points{
+	margin-top: 5%;
+	margin-left: 3%;
+}
+
+.logo{
+	margin-left:30%;
+	margin-top: 10%;
+}
+/*.background{
+	height:100%;
+	width: 1300px;
+}*/
+
+.userNeeds{
+	margin-left: 3%;
+	margin-top:4%;
+}
+
+.techContainer{
+	height:400px;
+	margin-left:12%;
+	margin-top:4%;
+	position:relative;
+	background-color:#ffffff;
+	opacity:0.5;
+	font-size:13px;
+}
+
+.techImage1{
+	margin-top:4%;
+ 	position:relative;
+	height:195px;
+}
+
+.techImage2{
+	height:195px;
+	position:relative;
+	padding-top:20px;
+}
+
+.techHead{
+	margin-top:6%;
+	margin-left: 33%;
+}
+
+.techContain{
+	height:400px;
+	position:absolute;
+}
+
+.techText{
+	color:#000000;
+	padding-top: 7%;
+}
+
+
+@media all and (max-width: 800px) {
+	/*Woo a media query*/
+	body{
+		margin:0;
+	}
+ 	
+ 	.logo{
+ 		height: 300px;
+ 		width: 330px;
+ 		margin-left:28%;
+ 		margin-top:20%;
+ 	}
+ 	
+ 	.contentBar{
+ 		margin-top:25%;
+ 	}
+ 	
+ 	.header1{
+ 		margin-top:27%;
+ 		text-align:centre;
+ 		font-size:30px;
+ 		padding-top:2%;
+ 	}
+ 	
+ 	.paraConcept{
+ 		margin-left:28%;
+ 		width: 410px;
+ 		height:350px;
+ 		margin-top: 35%;
+ 		padding-top:0%;
+ 	}
+ 	
+ 	.needsText{
+		width: 320px;
+	}
+	
+	.needsText p{
+		font-size: 10px;
+	}
+	
+	.techContainer{
+		height:300px;
+	}
+	
+	.techContainer p{
+		font-size: 11px;
+	}
+	
+	.techImage1{
+		margin-left:70px;
+		height: 150px;
+		padding-bottom:10px;
+	}
+
+	.techImage2{
+		margin-left:-5px;
+		height:160px;
+		padding-top: 25px;
+	}
+	
+	.gpsText img{
+	width:60px;
+	height:60px;
+	position:absolute;
+}
+
+.gpsText p{
+	height:100px;
+	width:350px;
+	position:relative;
+	margin-left: 60px;
+	margin-right: 60px;
+	font-size:11px;
+}
+
+.gpsText{
+	height:130px;
+	position:relative;
+	margin-top: 2%;
+	margin-left: 8%;
+	
+}
+
+.gyroText img{
+	width:60px;
+	height:60px;
+	position:absolute;
+}
+
+.gyroText p{
+	height:100px;
+	width:350px;
+/*	position:relative;*/
+	margin-left: 60px;
+	margin-right: 60px;
+	font-size:11px;
+}
+
+.gyroText{
+	height:130px;
+	margin-top: 2%;
+	margin-left: 8%;
+}
+
+.arText img{
+	width:60px;
+	height:60px;
+	position:absolute;
+}
+
+.arText p{
+	height:100px;
+	width:350px;
+/*	position:relative;
+*/	margin-left: 60px;
+	margin-right: 60px;
+	font-size:11px;
+}
+
+.arText{
+	height:130px;
+/*	position:relative;*/
+	margin-left: 8%;
+	margin-top: 2%;
+}
+
+.senseHead{
+	margin-left: 9%;
+	font-size:22px;
+}
+
+.sensors{
+	margin-left: 40%;
+	margin-top: 6%;
+}
+
+.comp{
+	height:150px;
+	margin: 10px;
+}
+
+.tablet{
+	height:150px;
+	margin: 10px;
+}
+
+.phone{
+	height:150px;
+	margin: 10px;
+}
+
+.deviceContain img{
+	height:50px;
+	width: 50px;
+	margin-top:1%;
+	position:absolute;
+}
+
+.deviceHead{
+	position:relative;
+	margin-left:50px;
+	font-size: 17px;
+}
+
+.deviceContain p{
+	font-size: 11px;
+	margin-left:5px;
+	margin-top:20px;
+}
+
+.DevPriHead {
+	font-size:25px;
+	margin-top: 8%;
+}
+
+.appPlan{
+	height: 400px;
+	width: 550px;
+	margin-left: 13%;
+	margin-top: 2%;
+}
+
+.appHeader{
+	color:#ffffff;
+	margin-top:7%;
+	text-align:center;
+	font-size: 30px;
+}
+	
+ @media all and (max-width: 500px) {
+ 
+ 	body{
+ 		margin:0;
+ 	}
+	/*Woo a media query*/
+ 	.logo{
+ 		height: 250px;
+ 		width: 250px;
+ 		margin-left:20%;
+ 		margin-top:40%;
+ 	}
+ 	
+	.contentBar{
+ 		margin-top:40%;
+ 	}
+ 	
+ 	.header1{
+ 		margin-top:45%;
+ 		font-size:25px;
+ 		text-align:centre;
+ 		margin-left: 35%;
+ 	}
+ 	
+ 	.paraConcept{
+ 		margin-left:16%;
+ 		width: 310px;
+ 		height:420px;
+ 		margin-top: 57%;
+ 		font-size:9px;
+ 	}
+ 	
+ 	.needsText p{
+		color:#ffffff;
+		font-size: 8px;
+	}
+
+	.needsText h3{
+		color:#ffffff;
+		font-size: 11px;
+	}
+	
+	.needsText{
+		width: 400px;
+	}
+	
+ 	.needsText img{
+		height:40px;
+		width:40px;
+	}
+	
+	.userNeeds{
+		font-size: 30px;
+		margin-top: 10%;
+		margin-left:4%;
+	}
+	
+	.techImage1{
+		height:125px;
+		margin-left:40px;
+	}
+
+	.techImage2{
+		height:125px;
+		margin-left:-5px;
+	}
+	
+	.techHead{
+		font-size:30px;
+		margin-left: 27%;
+		margin-top: 10%;
+	}
+	
+
+.gpsText p{
+	height:120px;
+	width:280px;
+	font-size:9px;
+}
+
+.gpsText{
+	height:130px;
+	position:relative;
+	margin-top: 2%;
+	margin-left: 8%;
+	
+}
+
+.gyroText p{
+	height:120px;
+	width:280px;
+	font-size:9px;
+}
+
+.gyroText{
+	height:130px;
+	margin-top: 2%;
+	margin-left: 8%;
+}
+
+.arText p{
+	height:120px;
+	width:280px;
+	font-size:9px;
+}
+
+.arText{
+	height:130px;
+/*	position:relative;*/
+	margin-left: 8%;
+	margin-top: 2%;
+}
+
+.senseHead{
+	margin-left: 9%;
+	font-size:18px;
+}
+
+.sensors{
+	margin-left: 40%;
+	margin-top: 10%;
+	font-size: 29px;
+}
+
+.deviceContain p{
+	font-size: 9px;
+}
+
+.appHeader{
+	color:#ffffff;
+	margin-top:11%;
+	text-align:center;
+	font-size: 23px;
+}
+
+.appPlan{
+	height: 220px;
+	width: 380px;
+	margin-left: 3%;
+	margin-top: 20%;
+}
+}
